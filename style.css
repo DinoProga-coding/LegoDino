@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body{
+  background-color: rgba(32, 30, 27, 0.877);
+}
+
+header {
+  background-color: #191411;
+  width: 80%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 125px;
+}
+header .logo {
+  width: 64px;
+}
+header .menu_item {
+  transition: 0.5s;
+  color: white;
+  font-size: 24px;
+  margin: 30px;
+}
+
+.menu_item:hover{
+  cursor: pointer;
+  text-decoration-color: rgb(17, 236, 218);
+  padding-left: 40px;
+}
+
+.block{
+  background-color: #191411;
+  width: 50%;
+  height: 300px;
+  text-align: center;
+  margin-left: 310px;
+  margin-top: 100px;
+  padding: 30px;
+}
+
+.text{
+  color: white;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.block_image{
+  width: 60%;
+}
+
+.block2{
+  background-color: #191411;
+  width: 65%;
+  height: 3900px;
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 100px;
+  padding: 30px;
+}
+
+.block2 h1{
+  color: white;
+  margin: 30px;
+}
+
+.block2_image3{
+  width: 95%;
+  height: 450px;
+  margin: 20px;
+}
+
+.block2_image4{
+  width: 75%;
+  margin: 20px;
+}
+
+.block2_image{
+  width: 450px;
+  height: 450px;
+  margin: 20px;
+}
+
+.block2 .Legends{
+  color: aqua;
+  margin: 30px;
+}
+
+@media (max-width:998px) {
+
+  body{
+    max-width: 1200px;
+  }
+
+  .text{
+    font-size: 26px;
+  }
+
+  h1{
+    font-size: 36px;
+  }
+  .block{
+    margin-left: 250px;
+    height: 350px;
+  }
+  .block2{
+    margin-left: 160px;
+  }
+  .block2_image3{
+    width: 90%;
+    height: 300px;
+    margin: 20px;
+  }
+}
